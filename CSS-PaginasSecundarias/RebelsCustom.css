@@ -157,3 +157,62 @@ footer {
   border-collapse: collapse;
   border-color: rgb(140, 150, 6);
 }
+
+/*ZONAS*/
+.base{
+  margin-top: 3%;
+}
+.baseC{
+  float: left;
+  width: 65%;
+  background-color: rgb(140, 150, 6);
+  color: black;
+  height: 250px;
+  text-align: center;
+  font-size: 90%;
+  font-family:sans-serif;
+}
+
+.ciudadC{
+  float: right;
+  width: 65%;
+  background-color: rgb(0, 0, 0);
+  color: whitesmoke;
+  height: 250px;
+  text-align: center;
+  font-size: 90%;
+  font-family:sans-serif;
+}
+
+.desiertoC{
+  float: left;
+  width: 65%;
+  background-color: rgb(180, 102, 12);
+  color: black;
+  height: 250px;
+  text-align: center;
+  font-size: 90%;
+  font-family:sans-serif;
+}
+
+.subC{
+  float: right;
+  width: 65%;
+  background-color:  rgb(0, 0, 0);
+  color: whitesmoke;
+  height: 250px;
+  text-align: center;
+  font-size: 90%;
+  font-family:sans-serif;
+}
+
+.junglaC{
+  float: left;
+  width: 65%;
+  background-color: rgb(140, 150, 6);
+  color: black;
+  height: 250px;
+  text-align: center;
+  font-size: 90%;
+  font-family:sans-serif;
+}
