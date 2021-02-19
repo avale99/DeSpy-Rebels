@@ -68,7 +68,8 @@
 
 /*Footer*/
 footer {
-  margin-top: 15%;
+  margin-top: 0;
+  margin-bottom: 0;
   display: block;
   text-align: center;
   background-color: #333;
@@ -81,6 +82,7 @@ footer {
 .principales{
   width: 100%;
   text-align: center;
+  align-content: center;
   height: 400px;
   margin-top: 100px;
 }
@@ -90,7 +92,7 @@ footer {
   height: 400px;
   width: 300px;
   float :left;
-  margin-left: 12%;
+  margin-left: 15%;
   margin-right: 1%;
   border:3px;
   border-style:ridge;
@@ -117,7 +119,7 @@ footer {
   width: 300px;
   float :left;
   margin-left: 1%;
-  margin-right: 1%;
+  margin-right: 12%;
   border:3px;
   border-style:ridge;
   border-collapse: collapse;
@@ -137,7 +139,7 @@ footer {
   height: 400px;
   width: 300px;
   float :left;
-  margin-left: 25%;
+  margin-left: 27%;
   margin-right: 1%;
   border:3px;
   border-style:ridge;
@@ -215,4 +217,55 @@ footer {
   text-align: center;
   font-size: 90%;
   font-family:sans-serif;
+}
+
+/*JUGABILIDAD*/
+.jugabilidad{
+    width: 100%;
+    text-align: center;
+    height: 500px;
+    margin-top: 45px;
+    background-color: rgb(140, 150, 6);
+}
+
+.infoAlerta{
+  display: block;
+  height: 400px;
+  width: 50%;
+  float :left;
+  margin-top: 0;
+}
+
+.infoComo{
+  display: block;
+  height: 400px;
+  width: 50%;
+  float :right;
+  margin-top: 0;
+}
+
+/*Armamento*/
+.armamento{
+    width: 100%;
+    text-align: center;
+    height: 500px;
+    margin-top: 45px;
+    background-color: rgb(140, 150, 6);
+    margin-bottom: 0;
+}
+
+.camuflajeBotas{
+  display: block;
+  height: 400px;
+  width: 50%;
+  float :left;
+  margin-top: 2%;
+}
+
+.propulsorGrap{
+  display: block;
+  height: 400px;
+  width: 50%;
+  float :right;
+  margin-top: 2%;
 }
