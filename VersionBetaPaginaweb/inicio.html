@@ -1,0 +1,113 @@
+<html>
+    <style>
+    *{
+	margin: 0;
+	padding: 0;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+body{
+	background: #313D52;
+}
+
+header{
+	width: 100%;
+}
+
+.navegacion{
+	width: 1000px;
+	margin: 30px auto;
+	background: #fff;
+}
+
+.navegacion ul{
+	list-style: none;
+}
+
+.menu > li{
+	position: relative;
+	display: inline-block;
+}
+
+.menu > li > a{
+	display: block;
+	padding: 15px 20px;
+	color: #353535;
+	font-family: 'Open sans';
+	text-decoration: none;
+}
+
+.menu li a:hover{
+	color: #CE7D35;
+	transition: all .3s;
+}
+
+/* Submenu*/
+
+.submenu{
+	position: absolute;
+	background: #333333;
+	width: 120%;
+	visibility: hidden;
+	opacity: 0;
+	transition: opacity 1.5s;
+}
+
+.submenu li a{
+	display: block;
+	padding: 15px;
+	color: #fff;
+	font-family: 'Open sans';
+	text-decoration: none;
+}
+
+.menu li:hover .submenu{
+	visibility: visible;
+	opacity: 1;
+}
+    </style>
+<body>
+	<header>
+        <center><img src="Captura.PNG" style="max-width:100%;width:auto;height:auto;"></center>
+		<nav class="navegacion">
+			<ul class="menu">
+				<li><a href="inicio.html">Inicio</a></li>
+				<li><a href="personajes.html">Personajes</a></li>
+				<li><a href="armamento.html">Armamento</a>
+					<ul class="submenu">
+						<li><a href="armamento2.html">Armamento especialidado</a></li>
+						
+					</ul>
+				</li>
+				<li><a href="jugabilidad.html">Jugabilidad</a></li>
+                <li><a href="#">Zonas de juego</a>
+                <ul class="submenu">
+						<li><a href="baserebelde.html">Base rebelde(Zona tutorial+Base)</a></li>
+                    <li><a href="ciudadoculta.html">Ciudad Oculta</a></li>
+					 <li><a href="basedesertica.html">Base Desértica</a></li>
+                     <li><a href="interludio.html">Interludio - Momento pausa de exploración</a></li>
+                     <li><a href="basejungla.html">Base en la Jungla</a></li>
+                     <li><a href="basesubmarina.html">Base Submarina</a></li>
+                    <li><a href="zonafinal.html">Zona final Volcán</a></li>
+                    </ul>
+                    </li>
+                <li><a href="zonassecretas.html">Zonas secretas y Colecionables</a>
+					</ul>
+               
+        </nav>
+	</header>
+    <center><h1>Historia - Idea General</h1></center>
+    <font color="blue" face="" size=4>
+  <b><center><p> Nuestro elenco de personajes son un grupo espías que pertenecen a un grupo rebelde el cual está en contra de una organización poderosa que domina a la civilización y poseen una pieza o materia bastante peligrosa.</p>
+      <p>Nuestra mision principal sera intentar robar la pieza para que esta organización no pueda crear algo con ella e ir descubriendo durante el juego como esta organización llegó hasta donde llego y que quieren hacer con la pieza.</p></center></b>
+    </font>
+<p>   <center><h1>Mundo y Ambientación</h1></center></p>
+    <font color="blue" face="" size=4>
+    <p><center><b>Nos encontramos en el planeta Skaral, es un planeta prácticamente desolado con zonas muy áridas como desiertos y volcanes, por esto la gente que vive en este planeta vive bajo tierra aunque se dice que existen zonas donde había volcanes que son fértiles.</b></center></p>
+<p><center><b>Durante el juego comenzaremos en las instalaciones de los rebeldes bajo tierra y cuando vayamos avanzando en el juego descubriremos zonas que se supone que no existían.
+    </b></center></p>
+    </font>
+</body>
+</html>
